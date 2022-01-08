@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d614fc8c85.js" crossorigin="anonymous"></script>
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Convertisseur de devises </h1><br>
+        <i class="fas fa-money-bill-alt"></i><br>
+        <div class="amount">
+            <p>Vodacom M-pesa Converter</p>
+            <input type="text" value="" placeholder="Entrez le montant">
+        </div>
+        <div class="drop-list">
+            <div class="from">
+                <p>Devises en : </p>
+                <div class="select-box">
+                    <select class="option-Selector" >
+                        <option value="2200">Frcs congolais</option>
+                        <option value="980">Frcs rwandais</option>
+                        <option value="3500">Frcs Burundais</option>
+                        <option value="3525">Shillings</option>
+                    </select>
+                </div>
+            </div>
+            <div class="icon"><i class="fas fa-exchange"></i></div>
+            <div class="to">
+                <p></p>
+                <div class="select-box">
+                    <div class="To-Dollar"></div> 
+                </div>
+            </div>
+        </div>
+        <div class="exchange-rate"></div>
+        <button class="btn-El">Convertir</button>
+    </div>
+</body>
+        <script src="main.js"></script>
+</html>
