@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://www.history.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTU3ODc4NjAyMTgwMzM5MDE3/hith-8-things-you-may-not-know-about-american-money-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper{
+    margin: 100px auto;
+    box-shadow: 6px 5px 30px black;
+    max-width: 450px;
+    width: 100%;
+    height:329px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    padding-top: 15px;
+}
+
+h1{
+    font-size: 30px;
+    font-family: serif;
+    color: rgb(252, 247, 247);
+}
+
+p{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.To-Dollar{
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+input {
+    padding: 5px;
+    font-size: 22px;
+    margin: 5px;
+    background: rgb(5, 15, 5);
+    color: white;
+}
+
+button{
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    background: rgb(5, 15, 5);
+    color: white;
+    cursor: pointer;
+}
+
+.drop-list{
+    display: flex;
+    justify-content: center;
+}
+
+.from, .to{
+    display: flex;
+    padding: 10px;
+}
+
+option{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.exchange-rate{
+    padding: 4px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 990px) {
+    body {
+        height: 100vh;
+        padding: 10px;
+    }
+
+    .wrapper{
+        height: 360px;
+    }
+}
+
+.fas{
+    font-size: 30px;
+}
+
+.display-css{
+    font-size: 25px;
+    font-family: monospace;
+}
+
+
+.option-Selector{
+    padding: 2px 8px;
+    border-radius: 7px;
+    background-color: rgba(234, 241, 234, 0);
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
